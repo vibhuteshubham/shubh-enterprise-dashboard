@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shubh Pvt Ltd — Sign in</title><link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/login.css"></head>
+<body class="login-body"><main class="login-card">
+<img src="assets/logo.svg" alt="Shubh Pvt Ltd logo" width="56" height="56"><h1>Shubh Pvt Ltd</h1><p class="muted">Sales &amp; Employee Management</p>
+<form id="login-form" novalidate>
+<label for="identifier">Email or username<input id="identifier" autocomplete="username" required></label>
+<label for="password">Password<span class="pw"><input id="password" type="password" autocomplete="current-password" required><button type="button" id="toggle" class="btn ghost" aria-label="Show or hide password">Show</button></span></label>
+<div class="row between"><label class="inline"><input type="checkbox" id="remember"> Remember me</label><a href="#" id="forgot">Forgot password?</a></div>
+<p id="error" class="err" role="alert"></p><button class="btn" id="submit" type="submit">Sign in</button></form>
+<details><summary>Demo accounts (demonstration only)</summary><ul id="demo"></ul></details>
+</main><script type="module" src="js/login.js"></script></body></html>
